@@ -5,12 +5,10 @@
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
-
 .product-card img:hover {
     transform: scale(1.1); /* Enlarge image slightly on hover */
 }
 
-/* Fullscreen preview styling */
 .image-preview {
     display: none;
     position: fixed;
@@ -23,7 +21,6 @@
     justify-content: center;
     z-index: 1000;
 }
-
 #image-preview img {
     max-width: 80%;
     max-height: 80%;
@@ -46,7 +43,7 @@
 
 .product-grid {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);;
+    grid-template-columns:repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
 }
@@ -247,7 +244,7 @@
     width: 24px;
     height: 24px;
     max-width: 100%;
-    object-fit: contain; /* Or 'cover', based on your design */
+    object-fit: contain; 
 }
 
 .footer-bottom {
